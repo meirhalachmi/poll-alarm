@@ -66,8 +66,10 @@ Nothing read from WhatsApp leaves the phone. The only network traffic is the upd
 3. Tick the groups to follow. A group with nothing unread is not listed yet; type its name.
 4. "ניסיון צלצול" shows what an alert looks like.
 
-On a Galaxy Watch, phone notifications may be muted on the phone while the watch is worn; that is
-a Galaxy Wearable setting.
+**With a Galaxy Watch:** Samsung can mute phone notifications on the phone while the watch is
+worn, which silences the ring. To keep it ringing, turn that off in the Galaxy Wearable app, under
+the watch's notification settings (the option's name varies between versions). The watch itself
+gets a vibration every two seconds while the poll rings.
 
 ## Build
 

@@ -2,6 +2,8 @@ name: Build
 
 on:
   push:
+    # A documentation change publishes no new build.
+    paths-ignore: ["**.md", "LICENSE"]
   pull_request:
   workflow_dispatch:
 
