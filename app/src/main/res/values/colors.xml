@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="alert_background">#075E54</color>
+    <color name="alert_text">#FFFFFF</color>
+    <color name="alert_question">#DCF8C6</color>
+    <color name="problem">#C62828</color>
+</resources>

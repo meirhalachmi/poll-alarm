@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">סקרים בווטסאפ</string>
+
+    <!-- Main screen -->
+    <string name="intro">כשנפתח סקר בקבוצה שמסומנת כאן, הטלפון מצלצל ומראה \"יש סקר בקבוצה…\", עם כפתור שפותח אותו. האפליקציה קוראת רק את הווידג\'ט של ווטסאפ, בטלפון עצמו: שום דבר ממנו לא יוצא מהטלפון. רק הודעה שעוד לא נקראה מגיעה לווידג\'ט.</string>
+    <string name="step_widget">① לחבר את הווידג\'ט של ווטסאפ (פעם אחת, באישור של אנדרואיד):</string>
+    <string name="connect_widget">חיבור: %1$s</string>
+    <string name="no_widget">לא נמצא בטלפון ווידג\'ט של ווטסאפ. צריך שווטסאפ יהיה מותקן.</string>
+    <string name="widget_connected">✓ הווידג\'ט של ווטסאפ מחובר</string>
+    <string name="widget_connected_read">✓ הווידג\'ט של ווטסאפ מחובר · נקרא לאחרונה ב-%1$s</string>
+    <string name="running">✓ רץ ברקע (ההתראה הקבועה \"מחכה לסקרים\")</string>
+    <string name="not_running">לא רץ ברקע. לפתוח את האפליקציה שוב.</string>
+    <string name="step_notifications">② רשות להתריע:</string>
+    <string name="allow_notifications">לאשר התראות</string>
+    <string name="step_full_screen">③ רשות להופיע על כל המסך כשהטלפון נעול:</string>
+    <string name="allow_full_screen">לאשר מסך מלא</string>
+    <string name="battery_hint">מומלץ: לא לתת לטלפון להרדים את האפליקציה, אחרת הצלצול יכול להתעכב:</string>
+    <string name="battery_allow">לא להרדים</string>
+    <string name="chats_title">קבוצות לצלצל עליהן</string>
+    <string name="no_chats">עוד לא נקראה שום קבוצה. כשתגיע הודעה שלא נקראה, הקבוצה תופיע כאן, או לכתוב את שמה למטה.</string>
+    <string name="type_hint">קבוצה שלא מופיעה ברשימה (אין בה כרגע הודעה שלא נקראה): לכתוב את השם שלה כמו בווטסאפ. אימוג\'י וסימנים לא משנים.</string>
+    <string name="type_field">שם הקבוצה</string>
+    <string name="add">הוספה</string>
+    <string name="test_ring">ניסיון צלצול</string>
+    <string name="test_chat">ניסיון</string>
+    <string name="test_question">ככה זה ייראה כשיהיה סקר</string>
+    <string name="problem_line">⚠️ %1$s (מ-%2$s)</string>
+    <string name="send_report">שליחת פרטי התקלה</string>
+
+    <!-- Event log -->
+    <string name="log_title">מה קרה לאחרונה</string>
+    <string name="log_empty">עוד לא היה סקר.</string>
+    <string name="log_poll">סקר חדש ב%1$s: צלצל</string>
+    <string name="log_problem">תקלה: %1$s</string>
+    <string name="log_problem_cleared">התקלה עברה</string>
+    <string name="log_updated">עודכן לגרסה %1$d</string>
+
+    <!-- Updates -->
+    <string name="version">גרסה %1$d</string>
+    <string name="check_updates">בדיקת עדכונים</string>
+    <string name="update_checking">בודק…</string>
+    <string name="update_latest">זו הגרסה האחרונה</string>
+    <string name="update_installing">מוריד ומתקין את גרסה %1$d…</string>
+    <string name="update_failed">העדכון נכשל: %1$s</string>
+    <string name="update_allow">לאשר התקנת עדכונים</string>
+    <string name="update_need_permission">צריך לאשר פעם אחת התקנת עדכונים מהאפליקציה.</string>
+    <string name="update_mismatch">הקובץ שירד לא תואם לגרסה שפורסמה.</string>
+    <string name="update_ready_title">יש גרסה חדשה של %1$s</string>
+    <string name="update_tap_to_install">לחצי כדי להתקין את הגרסה החדשה</string>
+    <string name="update_not_installed">העדכון לא הותקן</string>
+    <string name="update_retry_later">ננסה שוב בבדיקה הבאה</string>
+    <string name="channel_updates">עדכוני האפליקציה</string>
+
+    <!-- The ring -->
+    <string name="channel_ring">צלצול על סקר</string>
+    <string name="channel_ring_description">מצלצל כשנפתח סקר בקבוצה מסומנת</string>
+    <string name="channel_pulse">רטט בשעון</string>
+    <string name="channel_pulse_description">רוטט שוב ושוב בשעון המחובר כל עוד הסקר מצלצל</string>
+    <string name="channel_waiting">סקרים שמחכים</string>
+    <string name="channel_waiting_description">הסקר נשאר כאן עד שפותחים אותו</string>
+    <string name="poll_in">יש סקר בקבוצה %1$s</string>
+    <string name="poll_in_short">יש סקר בקבוצה</string>
+    <string name="poll_more">%1$s (ועוד %2$d)</string>
+    <string name="tap_to_open">לחצי כדי לפתוח</string>
+    <string name="open_poll">לפתוח את הסקר</string>
+    <string name="later">אחר כך</string>
+    <string name="no_whatsapp">ווטסאפ לא נמצא בטלפון</string>
+
+    <!-- Running in the background -->
+    <string name="channel_running">פועל ברקע</string>
+    <string name="channel_running_description">ההתראה הקבועה שמשאירה את האפליקציה ערה. אפשר להסתיר אותה.</string>
+    <string name="waiting_for_polls">מחכה לסקרים</string>
+
+    <!-- Health -->
+    <string name="channel_problems">תקלות</string>
+    <string name="channel_problems_description">כשהאפליקציה כבר לא מצליחה לקרוא את ווטסאפ</string>
+    <string name="problem_title">⚠️ %1$s לא עובד כרגע</string>
+    <string name="problem_unbound">הווידג\'ט של ווטסאפ התנתק מהאפליקציה (קורה לפעמים אחרי עדכון של ווטסאפ). אפשר לחבר אותו שוב במסך של האפליקציה.</string>
+    <string name="problem_no_list">ווטסאפ שינו את הווידג\'ט, והאפליקציה לא מוצאת בו את רשימת ההודעות. סקרים לא יצלצלו עד שזה יתוקן: כדאי לשלוח את פרטי התקלה.</string>
+    <string name="problem_unreadable">ווטסאפ שינו את הווידג\'ט, והאפליקציה לא מבינה את ההודעות בו. סקרים לא יצלצלו עד שזה יתוקן: כדאי לשלוח את פרטי התקלה.</string>
+    <string name="problem_failing">הקריאה של הווידג\'ט נכשלת. סקרים לא יצלצלו עד שזה יתוקן: כדאי לשלוח את פרטי התקלה.</string>
+    <string name="problem_stale">האפליקציה לא הצליחה לקרוא את הווידג\'ט כבר כמה שעות. אם זה לא עובר אחרי פתיחה של האפליקציה, כדאי לשלוח את פרטי התקלה.</string>
+</resources>
